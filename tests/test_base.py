@@ -2,10 +2,11 @@ from io import BytesIO
 from pathlib import Path
 
 import pytest
-from tablib import Dataset
 from calamine_tablib import load_dataset
+from tablib import Dataset
 
 PATH = Path(__file__).parent / "data"
+
 
 @pytest.mark.parametrize(
     "obj",

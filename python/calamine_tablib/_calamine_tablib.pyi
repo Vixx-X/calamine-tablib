@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import date, datetime, time
 from os import PathLike
 from typing import Protocol
+
 from tablib.core import Dataset
 
 ValueT = int | float | str | bool | time | date | datetime

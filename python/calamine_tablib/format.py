@@ -1,9 +1,10 @@
 import itertools
 from io import BytesIO
 
+from calamine_tablib import load_dataset
 from pyexcelerate import Workbook
 from tablib.formats._xlsx import XLSXFormat
-from calamine_tablib import load_dataset
+
 
 class FastXLSXFormat(XLSXFormat):
     """XLSX format."""
