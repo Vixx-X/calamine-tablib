@@ -3,13 +3,13 @@ from io import BytesIO
 
 from calamine_tablib import load_dataset
 from pyexcelerate import Workbook
-from tablib.formats._xlsx import XLSXFormat
 
 
-class FastXLSXFormat(XLSXFormat):
+class FastXLSXFormat:
     """XLSX format."""
 
     title = "fast_xlsx"
+    extensions = ('xlsx',)
 
     @classmethod
     def import_set(cls, dset, in_stream, headers=True, read_only=True, skip_lines=0):
