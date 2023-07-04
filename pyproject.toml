@@ -6,7 +6,9 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-
+dependencies = [
+  "tablib>=3.5,<4.0",
+]
 
 [build-system]
 requires = ["maturin>=1.1,<2.0"]
