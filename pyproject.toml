@@ -8,6 +8,7 @@ classifiers = [
 ]
 dependencies = [
   "tablib>=3.5,<4.0",
+  "PyExcelerate>=0.10,<1.0",
 ]
 
 [build-system]
