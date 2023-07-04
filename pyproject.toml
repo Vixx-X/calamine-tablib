@@ -1,5 +1,5 @@
 [project]
-name = "calamanine-tablib"
+name = "calamine-tablib"
 requires-python = ">=3.8"
 classifiers = [
   "Programming Language :: Rust",
